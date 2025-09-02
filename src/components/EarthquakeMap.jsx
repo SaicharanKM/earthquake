@@ -17,7 +17,7 @@ export default function EarthquakeMap() {
   return (
     <div className="flex justify-center items-stretch bg-gray-800 min-h-screen">
       <div className="bg-gray-900 shadow-2xl w-full border border-gray-700 flex flex-col">
-        <div className="bg-gray-900 px-6 py-4 border-b border-gray-700 flex flex-col md:flex-row justify-between items-center">
+        <div className="bg-gray-900 px-6 py-4  flex flex-col md:flex-row justify-between items-center">
           <h2 className="text-xl md:text-2xl font-bold text-white">
             Earthquake Visualizer
           </h2>
@@ -44,7 +44,7 @@ export default function EarthquakeMap() {
           </div>
         </div>
 
-        <div className="bg-gray-900 border-t border-gray-700">
+        <div className="bg-gray-900">
           <Legend />
         </div>
       </div>
